@@ -1,5 +1,5 @@
 {
-  "theme": "light",
+  "theme": "dark",
   "provider": "mock",
   "model": "mock-small"
 }

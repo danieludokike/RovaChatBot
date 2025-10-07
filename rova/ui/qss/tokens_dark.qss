@@ -1,15 +1,11 @@
-/* --- Tokens (Dark) --- */
-:root {
-    --bg: #0D1117;
-    --card: #111827;
-    --sidebar: #0B1220;
-    --text: #E5E7EB;
-    --muted: #9CA3AF;
-    --accent: #3B82F6;
-    --ai: #131D2F;
-    --border: #1F2937;
-    --chip: #1A2440;
-
-    --radius: 16px;
-    --shadow: 0 10px 30px rgba(0, 0, 0, .45);
-}
+/* tokens_dark.qss */
+--bg: #0D1117;
+--card: #111827;
+--sidebar: #0B1220;
+--text: #E5E7EB;
+--muted: #9CA3AF;
+--accent: #3B82F6;
+--ai: #131D2F;
+--border: #1F2937;
+--radius: 16px;
+--shadow: 0 10px 30px rgba(0,0,0,.45);

@@ -1,0 +1,17 @@
+/* --- Tokens (Light) --- */
+:root {
+    /* colors */
+    --bg: #F6F7F9;
+    --card: #FFFFFF;
+    --sidebar: #ECEFF3;
+    --text: #0F172A;
+    --muted: #6B7280;
+    --accent: #2F6FEB;    /* user bubble */
+    --ai: #F0F3F9;        /* ai bubble */
+    --border: #E5E7EB;
+    --chip: #E9EEF9;
+
+    /* shape */
+    --radius: 16px;
+    --shadow: 0 10px 30px rgba(18, 24, 40, .08);
+}

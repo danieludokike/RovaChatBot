@@ -1,0 +1,42 @@
+/* Base layout */
+QMainWindow { background: var(--bg); color: var(--text); }
+QFrame#Sidebar { background: var(--sidebar); border: 1px solid var(--border); border-radius: var(--radius); }
+QFrame#ChatCard { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); }
+
+/* Header */
+QFrame#ChatHeader { background: transparent; }
+QLabel#Title { font-weight: 600; font-size: 18px; }
+QLabel#StatusDot { min-width: 8px; min-height: 8px; border-radius: 4px; background: #22C55E; }
+
+/* Composer */
+QTextEdit#Composer {
+    background: var(--ai);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 8px 12px;
+}
+QPushButton#SendBtn {
+    background: var(--accent);
+    color: white;
+    border-radius: 12px;
+    padding: 8px 14px;
+}
+QPushButton#SendBtn:disabled { background: #94A3B8; }
+
+/* Bubbles */
+QFrame.UserBubble {
+    background: var(--accent);
+    color: #fff;
+    border-radius: 18px;
+    padding: 10px 14px;
+}
+QFrame.AIBubble {
+    background: var(--ai);
+    color: var(--text);
+    border-radius: 18px;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+}
+
+/* Scroll area */
+QScrollArea { border: none; background: transparent; }

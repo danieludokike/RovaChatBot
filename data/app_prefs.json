@@ -1,5 +1,5 @@
 {
   "theme": "dark",
-  "provider": "mock",
-  "model": "mock-small"
+  "provider": "openai",
+  "model": "gpt-4o-mini"
 }
